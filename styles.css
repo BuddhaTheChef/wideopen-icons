@@ -1,0 +1,273 @@
+body{
+  margin: 0;
+}
+.main{
+  height:519px;
+  background-image: url("./img/wot-masthead-dark.jpg");
+}
+
+.logo{
+position: absolute;
+padding-top: 2%;
+padding-left: 20%;
+width: 8.5%;
+}
+.hamburger{
+  position: absolute;
+  top: 50px;
+  right: 90px;
+  display: none;
+
+}
+
+.nav-list {
+  position: absolute;
+ display: flex;
+ justify-content: space-around;
+ width: 30%;
+ right: 22%;
+ top: 3%;
+ list-style-type: none;
+ font-family: sans-serif;
+ font-weight: 500;
+ font-stretch: semi-expanded;
+ line-height: 23px;
+ font-size: 16px;
+ font-style: normal;
+ color: white;
+ letter-spacing: 1px;
+}
+
+li{
+ margin-right: 1vw;
+}
+.head-contain{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top:50 px;
+}
+.headOne{
+  font-size: 22px;
+  display: block;
+  margin-right: 530px;
+  font-weight: 400;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+ font-weight: 200;
+ font-size: 150px;
+ letter-spacing: 1px;
+color: white;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+ font-size: 19px;
+ letter-spacing: 1px;
+ color: white;
+
+
+}
+
+#left-hr{
+  float: left;
+  transform: translateY(-66px);
+  height: 10px;
+  background-color: white;
+
+}
+
+#right-hr{
+  float: right;
+  transform: translateY(-66px);
+  height: 10px;
+  background-color: white;
+
+}
+.colorful{
+
+  margin-left: 31%;
+  margin-right: 31%;
+
+}
+
+.orangeTxt{
+  color: orange;
+}
+
+.greenTxt{
+  color: #BDD436;
+}
+.sub{
+  margin-top: 2px;
+  padding-top: 20px;
+  background-color: #F0F0F0;
+  width: 100%;
+  height:350px;
+}
+
+.sectTwoText{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  line-height: 1.5;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 200px;
+  text-align: center;
+  color:#6F7C80;
+  font-weight: 400;
+
+}
+.sectTwoImg{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  overflow: hidden;
+}
+#shit{
+  position: absolute;
+  top: -100px;
+  left: -10px;
+
+}
+
+.botText{
+  font-size: 38px;
+  margin-top: -45px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greenBot{
+  color: #BDD436;
+}
+
+button{
+  margin-top: 0px;
+  font-size: 20px;
+  background-color: #BDD436;
+  color: white;
+  padding: 8px 165px 8px 165px;
+  border-radius: 40px;
+
+}
+
+.nav-list a{color: white;list-style-type: none; font-family: sans-serif;text-decoration:none; }
+.nav-list a:hover{border-bottom: 4px solid #BDD436;}
+.colorful hr{display: flex;flex-direction: column;justify-content: space-around;align-items: center;}
+.inner-lrn a {color:white; text-decoration: none;font-family: sans-serif;}
+.colorful h2{margin-top: -70px;}
+.head-contain h1{margin-top:150px;line-height:.9;}
+
+/*.b1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: -56px;
+  width: 4%;
+  height: 10px;
+  margin-left: 63%;
+  z-index: 4;
+}
+
+
+
+.b2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -12px;
+  width: 4%;
+  height: 10px;
+  margin-left:31%;
+  z-index: 3;
+}*/
+
+
+@media(max-width: 750px){
+  .nav-list{
+    display: none;
+  }
+  .hamburger{
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    display: inline;
+
+  }
+  .colorful{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media(max-width: 600px) {
+  button{
+    margin-top: 0px;
+    font-size: 20px;
+    background-color: #BDD436;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    border-radius: 40px;
+
+  }
+  .head-contain{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top:50px;
+  }
+  .headOne{
+    font-size: 22px;
+    display: block;
+    margin-right: 30px;
+    font-weight: 400;
+  }
+
+  h1{
+    font-family: 'Oswald', sans-serif;
+   font-weight: 200;
+   font-size: 80px;
+   letter-spacing: 1px;
+  color: white;
+  }
+
+  .colorful h2{
+    margin-top: -20px;
+  }
+
+button{
+  margin-top: -50px;
+}
+hr{
+  width: 20px;
+}
+.hamburger{
+  position: absolute;
+  top: 70px;
+  right: 40px;
+  display: inline;
+  height: 20px;
+  width: 30px;
+}
+.colorful{
+  margin-left: 2%;
+  margin-right:2%;
+}
+#left-hr{
+  transform: translateY(-18px);
+}
+#right-hr{
+  transform: translateY(-40px);
+}
+}
